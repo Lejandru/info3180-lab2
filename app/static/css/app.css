@@ -1,3 +1,42 @@
 body {
     padding-top: 5rem;
 }
+
+.topbar{
+    text-align: center;
+    background-color: #48B85B;
+    padding: 40px;
+
+}
+.information{
+    display: flex;
+    justify-content: space-evenly;
+}
+span{
+    text-align: left;
+}
+p{
+    text-align: center;
+}
+.follow-btn{
+    display:flex;
+    justify-content: space-evenly;
+}
+.btn{
+    background-color: #48B85B;
+    color:white;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0px;
+    border:none;
+}
+.imagetest{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

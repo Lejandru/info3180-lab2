@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<link rel = 'stylesheet' type = 'text/css' href = "{{url_for('static', filename='app.css') }}">
+    <div class ='topbar'>
+        <img src="{{url_for('static', filename='test.png')}}" class = 'imagetest'/>
+        <h1>Lejandru Richards</h1>
+        <p>@LeeRich</p>
+        <p>Kingston, Jamaica</p>
+        <p>{{dateJo}}</p>
+    </div> 
+    <section class = 'biography'>
+        <div class ='bio'>
+            <p> I am 23 years old, born in September 1998. I went to St.Georges College and now I currently attend UWI. I enjoy working out, playing games and watching TV.</p>
+        </p>
+        </div>
+    </section>
+    <section class = 'information'>
+        <div class = 'posts'>
+            <span class ="posts" title = "7">7</span>
+            <p> Posts </p>
+        </div>
+        <div class = 'following'>
+            <span class = "follow" title = "100"> 100 </span>
+            <p> Following</p>
+        </div>
+        <div class = 'followers'>
+                <span class = "follows" title = "250"> 250 </span>
+                <p> Followers</p>
+            </div>
+    </section>
+    <section class ="follow-btn">
+        <div class>
+            <button class = 'btn'> Follow </button>
+        </div>
+    </section>
+{% endblock %}
